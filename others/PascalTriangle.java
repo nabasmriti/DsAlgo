@@ -3,6 +3,11 @@ package others;
 import java.util.LinkedList;
 import java.util.List;
 
+/*
+ * Below solution prints Pascal triangle
+ * 1. Also try returning nth row
+ * 2. Also try returning rth row nth element*/
+
 class PascalTriangle {
     public List<List<Integer>> generate(int numRows) {
         List<Integer> row, prev = null;
