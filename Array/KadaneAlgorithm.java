@@ -43,3 +43,27 @@ public class KadaneAlgorithm {
 		        
 		    }
 }
+
+/* int maxTillNow =Integer.MIN_VALUE;
+        int sum =0;
+        int start =0;
+        int end =0;
+        int length = nums.length;
+        if(length == 1 )
+            return nums[0];
+        for(int i =0; i< length; i++){
+            sum+= nums[i];
+            if(sum > maxTillNow){
+                maxTillNow = Math.max(sum, maxTillNow);
+               
+                }
+            if( sum <0){
+                sum =0;
+                       
+               
+            }
+           
+        }
+        
+        return maxTillNow;
+    }*/
