@@ -6,6 +6,7 @@ If there are two middle nodes, return the second middle node.
 
 public class ListNode {
 	      int val;
+	      
 	      ListNode next;
 	      ListNode() {}
 	      ListNode(int val) { this.val = val; }
