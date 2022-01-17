@@ -15,7 +15,7 @@ Return the head of the merged linked list.*/
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class MergeTwoSortedLinkedList {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         if(list1 == null)
             return list2;

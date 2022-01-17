@@ -13,7 +13,7 @@
  *     }
  * }
  */
-public class Solution {
+public class IntersectionOfTwoLinkedList {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         int len1 =0;
         int len2 =0;
