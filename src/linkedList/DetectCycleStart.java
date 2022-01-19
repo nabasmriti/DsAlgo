@@ -1,3 +1,4 @@
+package linkedList;
 /*
  *Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null.
 
@@ -16,7 +17,7 @@ Do not modify the linked list. */
  *     }
  * }
  */
-public class Solution {
+public class DetectCycleStart {
     public ListNode detectCycle(ListNode head) {
         if(head == null)
             return null;

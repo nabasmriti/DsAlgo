@@ -1,4 +1,4 @@
-package Array;
+package array;
 //Boyer Moore's Voting Element
 //majority element n/2
 public class MajorityElement {
