@@ -51,12 +51,16 @@ class NMeetingsOneRoom
        
        meetComparator mc = new meetComparator();
        Collections.sort(meeting,mc);
-       int count =1;
+       ArrayList<Integer> answer = new ArrayList<>();
+       answer.add(meeting.get(0).pos);
+       int limit = meeting.get(0).pos;
+      
        
        for(int i=1; i<start.length; i++){
-           if(start[i]<=end[i-1])
-                count++;
+           if(meeting.get(i).start > limit)
+                limit = meeting.get(i).end;
+                answer.add(meeting.get(i).pos);
        }
-       return count;
+       return answer.size();
     }
 }
